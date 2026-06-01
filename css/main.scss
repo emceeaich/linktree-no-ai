@@ -12,3 +12,15 @@ body {
   text-underline-offset: 0.15lh;
   /* https://adactio.com/journal/22085 */
 }
+
+ul {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit,minmax(20vw, 1fr));
+  max-width: 100%;
+  list-style-type: "";
+}
+
+footer {
+  font-size: smaller;
+}

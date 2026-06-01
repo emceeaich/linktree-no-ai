@@ -38,7 +38,6 @@ links:
   spotify: https://open.spotify.com/artist/{spotify artist URI}
   bandcamp: https://example.bandcamp.com/
 # Build settings
-theme: minima
 plugins:
   - jekyll-seo-tag
 

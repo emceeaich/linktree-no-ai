@@ -1,0 +1,14 @@
+---
+---
+body {
+  font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+  font-weight: normal;
+  padding: 1em;
+  max-width: clamp(320px, 90%, 1000px);
+  margin-inline: auto;
+  font-size: 1.15rem;
+  line-height: 1.4;
+  background-color: mintcream;
+  text-underline-offset: 0.15lh;
+  /* https://adactio.com/journal/22085 */
+}

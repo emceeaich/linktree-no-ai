@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+	<html lang="en-US">
+		<head>
+    		<meta charset="utf-8">
+    		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    		<!--[if lt IE 9]>
+    		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    		<![endif]-->
+			<meta name="viewport" content="width=device-width, shrink-to-fit=no">
+			<meta name="view-transition" content="same-origin">
+			<link rel="stylesheet" type="text/css" href="/css/main.css">	
+			{% seo %}
+		</head>
+		<body class="{{ page.layout }}">
+			{% if site.banner %}
+			<div class="note">
+    			{{ site.banner | markdownify }}
+    		</div>
+			{% endif %}
+			<header name="top">
+			<h1>{{site.title}}</h1>
+			</header>
+			{{ content }}
+			<footer>
+            <p>{{ site.description }}</p>
+            <p>Last built {{ site.time | date_to_rfc822 }} using <a href="https://github.com/emceeaich/linktree-no-ai">Linktree No AI</a> because reasons.</p>
+			</footer>
+		</body>
+	</html>
+

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 ---
 <ul>
 {% for link in site.links %}

@@ -16,13 +16,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your Name's Links
+title: My Links
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi, I'm an artist, or a musician, or a crafts person, a programmer, an
+  entertainer, or a machinist, or a teacher, or a healer, or any of a 
+  myriad of other things. Instagram doesn't let me put links in my posts
+  so here's links to my work.
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
 # the following are the links you would have had put in your link tree, 
 # you need to enter the full url, including https, if you don't have one of
 # these links, delete the line with it 
@@ -37,6 +39,11 @@ links:
   line:  https://lin.ee/example/
   spotify: https://open.spotify.com/artist/{spotify artist URI}
   bandcamp: https://example.bandcamp.com/
+
+# you can set an optional style of the page by un-commenting
+# (removing the '#') from one (and one only) of these lines
+# style: round
+
 # Build settings
 plugins:
   - jekyll-seo-tag

@@ -14,11 +14,36 @@ body {
 }
 
 ul {
+  padding: 0;
   display: grid;
+  align-items: center;
+  justify-items: center;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit,minmax(20vw, 1fr));
+  grid-template-columns: repeat(auto-fit,minmax(25vw, 1fr));
   max-width: 100%;
   list-style-type: "";
+  li {
+    min-width: minmax(25vw, 1fr);
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+/* 
+  Style Variant Definitions
+*/
+
+ul.round {
+  grid-template-columns: 1fr;
+  li {
+    padding: 0.5rem;
+    border: solid 1px purple;
+    border-radius: 5ch;
+    margin-bottom: 0.5rem;
+    width: 80%;
+    text-align: center;
+  }
 }
 
 footer {
